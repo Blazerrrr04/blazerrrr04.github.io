@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zarrin</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <meta name="description" content="Блог про віртуальні технології">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <div id="search-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Пошук</h2>
+            <form>
+                <input type="text" placeholder="Type your search..." class="search-input">
+                <button type="submit" class="search-submit">Знайти</button>
+            </form>
+        </div>
+    </div>
+    <header>
+        <a href="#" class="logo">
+            <img src="img/Logo.png" alt="Zarrin Logo">
+        </a>
+        <nav class="nav">
+            <ul class="nav-links">
+                <li><a href="blog.html">Блог</a></li>
+                <li><a href="#">Про нас</a></li>
+                <li><a href="#" id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li><a href="#" class="contact-btn">Контакти</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    <section class="featured-post">
+        <img src="img/wave-pattern.png" alt="img" class="waves">
+        <img src="img/wave-pattern.png" alt="img" class="waves-two">
+        <div class="content">
+            <h2 class="featured-label">Рекомендована публікація</h2>
+            <h1 class="title">Як AI змінить<br> майбутнє</h1>
+            <p class="description">
+                Майбутнє AI побачить, що домашні роботи матимуть
+                покращений інтелект, збільшені можливості та стануть більш особистими
+                та, можливо, милими. Наприклад, домашні роботи подолають навігацію, напрямок.
+            </p>
+            <a href="#" class="read-more">Детальніше</a>
+        </div>
+        <div class="image-container">
+            <img src="img/img.png" alt="AI Future">
+        </div>
+    </section>
+    <section class="card">
+        <img src="img/img2.png" alt="VR & AI Image">
+        <div class="card-content">
+            <span>Розробка<small>16 березня 2023</small></span>
+            <h3>Як зробити гру привабливішою за допомогою нової технології віртуальної
+                реальності та штучного інтелекту</h3>
+            <p>Google багато років інвестує в штучний інтелект і приносить його переваги
+                окремим особам, компаніям і спільнотам. Незалежно від того, чи йдеться про
+                публікацію найсучасніших досліджень, створення корисних продуктів або
+                розробку інструментів і ресурсів, які допомагають іншим, ми прагнемо
+                зробити ШІ доступним для всіх.</p>
+            <a href="#">Детальніше</a>
+        </div>
+    </section>
+    <section class="section-post">
+        <div class="title-block">
+            <h2>Наша остання публікація</h2>
+            <a href="#" class="btn-view-all">Переглянути</a>
+        </div>
+        <div class="main-post">
+            <img src="img/img3.png" alt="VR & AI Technology">
+            <div class="card-content">
+                <span>Розробка<small>16 березня 2023</small></span>
+                <h3>Як зробити гру привабливішою за допомогою нової технології
+                    віртуальної реальності та штучного інтелекту</h3>
+                <p>Google багато років інвестує в штучний інтелект і приносить його переваги
+                    окремим особам, компаніям і спільнотам. Незалежно від того, чи йдеться про
+                    публікацію найсучасніших досліджень, створення корисних продуктів або
+                    розробку інструментів і ресурсів, які допомагають іншим, ми прагнемо
+                    зробити ШІ доступним для всіх.</p>
+                <a href="#">Детальніше</a>
+            </div>
+        </div>
+        <div class="sub-posts">
+            <div class="sub-post">
+                <img src="img/card1.png" alt="Traveling in Sea">
+                <div class="sub-post-content">
+                    <span>Подорожі<small>13 березня 2023</small></span>
+                    <h3>8 правил морської подорожі, які потрібно знати</h3>
+                    <p>Подорож морем має багато переваг. Деякі з переваг транспортування товарів
+                        морем включають: ви можете відправляти великі обсяги за ціною</p>
+                    <a href="#">Детальніше...</a>
+                </div>
+            </div>
+            <div class="sub-post">
+                <img src="img/card2.png" alt="Build Portfolio">
+                <div class="sub-post-content">
+                    <span>Розробка<small>11 березня 2023</small></span>
+                    <h3>Як створити потужне портфоліо та отримати роботу в UI/UX</h3>
+                    <p>Використовуйте низькі плоди, щоб визначити додаткову активність для
+                        бета-тестування. Подолайте цифровий розрив за допомогою додаткових кліків</p>
+                    <a href="#">Детальніше...</a>
+                </div>
+            </div>
+            <div class="sub-post">
+                <img src="img/card3.png" alt="Professional Footballer">
+                <div class="sub-post-content">
+                    <span>Спорт<small>10 березня 2023</small></span>
+                    <h3>Як стати професійним футболістом у 2023 році</h3>
+                    <p>Органічно розвивайте цілісне бачення світу проривних інновацій через
+                        різноманітність робочих місць і розширення можливостей. стратегії
+                        виживання для забезпечення проактивності</p>
+                    <a href="#">Детальніше...</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-post">
+        <div class="title-block">
+            <h2>Популярний пост</h2>
+            <a href="#" class="btn-view-all">Переглянути</a>
+        </div>
+            <div class="swiper sub-posts-swiper">
+                <div class="swiper-wrapper">
+                    <div class="sub-post swiper-slide">
+                        <img src="img/swiper1.png" alt="Traveling in Sea">
+                        <div class="sub-post-content">
+                            <span>Подорожі<small>13 березня 2023</small></span>
+                            <h3>Поїздка чи автобус? Який варіант підходить?</h3>
+                            <p>Вибір між поїздкою чи автобусом залежить від різних факторів, таких як
+                                відстань подорожі, доступний час, вартість і особа</p>
+                            <a href="#">Детальніше...</a>
+                        </div>
+                    </div>
+                    <div class="sub-post swiper-slide">
+                        <img src="img/swiper2.png" alt="Build Portfolio">
+                        <div class="sub-post-content">
+                            <span>Розробка<small>11 березня 2023</small></span>
+                            <h3>Найкращий веб-сайт для пошуку для вашого наступного проекту</h3>
+                            <p>Використовуйте низькі плоди, щоб визначити додаткову активність для
+                                бета-тестування. Подолайте цифровий розрив за допомогою додаткових кліків</p>
+                            <a href="#">Детальніше...</a>
+                        </div>
+                    </div>
+                    <div class="sub-post swiper-slide">
+                        <img src="img/swiper3.png" alt="Professional Footballer">
+                        <div class="sub-post-content">
+                            <span>Спорт<small>10 березня 2023</small></span>
+                            <h3>Як стати танцюристом у 2023 році з відповідними навичками?</h3>
+                            <p>Органічно розвивайте цілісне бачення світу проривних інновацій через
+                                різноманітність робочих місць і розширення можливостей. стратегії
+                                виживання для забезпечення проактивності</p>
+                            <a href="#">Детальніше...</a>
+                        </div>
+                    </div>
+                    <div class="sub-post swiper-slide">
+                        <img src="img/swiper4.png" alt="Traveling in Sea">
+                        <div class="sub-post-content">
+                            <span>Подорожі<small>13 березня 2023</small></span>
+                            <h3>Хто найкращий співак у чарті? Знаєте його?</h3>
+                            <p>Чарт Billboard, який рейтингує найвидатніших виконавців усіх часів на
+                                основі їх виступів у щотижневому Billboard Hot 100 та</p>
+                            <a href="#">Детальніше...</a>
+                        </div>
+                    </div>
+                    <div class="sub-post swiper-slide">
+                        <img src="img/swiper5.png" alt="Build Portfolio">
+                        <div class="sub-post-content">
+                            <span>Розробка<small>11 березня 2023</small></span>
+                            <h3>Як почати експортно-імпортний бізнес з дому?</h3>
+                            <p>Використовуйте низькі плоди, щоб визначити додаткову активність для
+                                бета-тестування. Подолайте цифровий розрив за допомогою додаткових кліків</p>
+                            <a href="#">Детальніше...</a>
+                        </div>
+                    </div>
+                    <div class="sub-post swiper-slide">
+                        <img src="img/swiper6.png" alt="Professional Footballer">
+                        <div class="sub-post-content">
+                            <span>Sports<small>10 березня 2023</small></span>
+                            <h3>Приготуйте кілька напоїв із шоколаду, шоколаду та молока</h3>
+                            <p>Органічно розвивайте цілісне бачення світу проривних інновацій
+                                через різноманітність робочих місць і розширення можливостей.
+                                стратегії виживання для забезпечення проактивності</p>
+                            <a href="#">Детальніше...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+    </section>
+    <section class="subscription-section">
+        <img src="img/wave-pattern.png" alt="img" class="waves">
+        <img src="img/wave-pattern.png" alt="img" class="waves-two">
+        <h2>Щотижня ми надсилаємо наші <br> історії на вашу поштову скриньку.</h2>
+        <form class="subscription-form">
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit">Почати</button>
+        </form>
+        <p>Отримайте відповідь завтра, якщо надішлете сьогодні до 21:00. Якщо ми отримали після <br> 21:00, ми отримаємо відповідь наступного дня.</p>
+    </section>
+    <footer class="footer">
+        <div class="footer-logo">
+            <img src="img/Logo.png" alt="Zarrin Logo">
+        </div>
+        <nav class="footer-nav">
+            <a href="#">Головна</a>
+            <a href="#">Блог</a>
+            <a href="#">Про нас</a>
+            <a href="#">Контакти</a>
+        </nav>
+        <div class="footer-socials">
+            <a href="#" class="social">FB</a>
+            <a href="#" class="social">IG</a>
+            <a href="#" class="social">LN</a>
+            <a href="#" class="social">YT</a>
+        </div>
+        <div class="footer-divider"></div>
+        <p class="footer-copy">Copyright Ideapeel Inc © 2023. All Right Reserved</p>
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zarrin</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <meta name="description" content="Блог про віртуальні технології">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+<body>
+<div id="search-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>Пошук</h2>
+        <form>
+            <input type="text" placeholder="Type your search..." class="search-input">
+            <button type="submit" class="search-submit">Знайти</button>
+        </form>
+    </div>
+</div>
+<header>
+    <a href="index.html" class="logo">
+        <img src="img/Logo.png" alt="Zarrin Logo">
+    </a>
+    <nav class="nav">
+        <ul class="nav-links">
+            <li><a href="blog.html">Блог</a></li>
+            <li><a href="about.html">Про нас</a></li>
+            <li><a href="#" id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li><a href="#" class="contact-btn">Контакти</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+</header>
+<section class="section-post">
+    <div class="block-title">
+        <h2>Зв'яжіться з нами</h2>
+        <p>Зв’яжіться з нами, щоб опублікувати ваш вміст і показувати рекламу <br> на нашому веб-сайті та отримати хороше охоплення.</p>
+    </div>
+    <div class="cards-white">
+        <div class="card-white">
+            <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+            <h3>Офіс</h3>
+            <p>Вікторія Стріт, Лондон, Великобританія</p>
+        </div>
+        <div class="card-white">
+            <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+            <h3>Емейл</h3>
+            <p>hello@zarrin.com</p>
+        </div>
+        <div class="card-white">
+            <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+            <h3>Телефон</h3>
+            <p>(001) 2342 3451</p>
+        </div>
+    </div>
+</section>
+<section class="contact-section">
+    <div class="map-background"></div>
+    <div class="contact-form">
+        <form>
+            <div class="form-group">
+                <input type="text" placeholder="Ім'я" required>
+                <input type="email" placeholder="Емейл" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" placeholder="Телефон" required>
+                <input type="text" placeholder="Тема" required>
+            </div>
+            <textarea placeholder="Повідомлення" rows="5" required></textarea>
+            <button type="submit" class="btn-submit">Надіслати повідомлення</button>
+        </form>
+    </div>
+</section>
+<section class="subscription-section">
+    <img src="img/wave-pattern.png" alt="img" class="waves">
+    <img src="img/wave-pattern.png" alt="img" class="waves-two">
+    <h2>Щотижня ми надсилаємо наші <br> історії на вашу поштову скриньку.</h2>
+    <form class="subscription-form">
+        <input type="email" placeholder="Your Email" required>
+        <button type="submit">Почати</button>
+    </form>
+    <p>Отримайте відповідь завтра, якщо надішлете сьогодні до 21:00. Якщо ми отримали після <br> 21:00, ми отримаємо відповідь наступного дня.</p>
+</section>
+<footer class="footer">
+    <div class="footer-logo">
+        <img src="img/Logo.png" alt="Zarrin Logo">
+    </div>
+    <nav class="footer-nav">
+        <a href="#">Головна</a>
+        <a href="#">Блог</a>
+        <a href="#">Про нас</a>
+        <a href="#">Контакти</a>
+    </nav>
+    <div class="footer-socials">
+        <a href="#" class="social">FB</a>
+        <a href="#" class="social">IG</a>
+        <a href="#" class="social">LN</a>
+        <a href="#" class="social">YT</a>
+    </div>
+    <div class="footer-divider"></div>
+    <p class="footer-copy">Copyright Ideapeel Inc © 2023. All Right Reserved</p>
+</footer>
+<script src="script/script.js"></script>
+</body>
+</html>
