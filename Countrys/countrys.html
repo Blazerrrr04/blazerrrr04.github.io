@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countries List</title>
+</head>
+<body>
+  <input type="text" id="countriesInput" placeholder="Enter countries">
+  <button id="enterButton">Enter</button>
+  <ul id="countriesList"></ul>
+
+  <script>
+    document.getElementById('enterButton').addEventListener('click', function () {
+      const input = document.getElementById('countriesInput');
+      const countries = input.value.split(',').map(country => country.trim()); 
+
+      const list = document.getElementById('countriesList');
+
+      list.innerHTML = '';
+
+      countries.forEach(country => {
+        if (country) { 
+          const li = document.createElement('li');
+          li.textContent = country;
+          list.appendChild(li);
+        }
+      });
+
+      input.value = '';
+    });
+  </script>
+</body>
+</html>
